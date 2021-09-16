@@ -1,0 +1,302 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family:ProximaNova,Arial,Helvetica Neue,sans-serif;
+}
+.first-container{
+    display: flex;
+    padding: 1em;
+    position: relative;
+    align-items: center;
+   padding: 0px;
+   margin: 0px;flex-wrap: wrap;
+  
+}
+.left-area{
+   
+    width: 43vw;
+    height: 26em;
+    background-color:white;
+   padding-left:4.4em;
+   padding-top: 4em;
+   padding-right: 4em;
+    position: relative;
+   display: flex;
+   flex-wrap: wrap; 
+   
+}
+.right-area{
+    width:45.5vw;
+    height:30em;
+    background: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Breakfast2-new_men3ne");
+    background-size: cover;
+    position: relative;
+   
+   
+   
+}
+
+ .swiggy-logo-head{
+    width: 150px;
+    height: 50px;
+   
+   
+}
+.list{
+   margin-left: 15vw;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 30px;
+  
+    
+}
+.login {
+    border: none;
+    background-color: white;
+    color:black;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size:.9em;
+    position: relative;
+}
+.login:hover{
+    color: rgb(248, 123, 39);
+}
+.signup{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size:.9em;
+    position: relative;   
+}
+.second-container{
+    background-color: rgb(26, 13, 13);
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.head-above-search{
+   margin-top: 1px;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+}
+.head-above-search h3{
+    color: rgb(119, 117, 117);
+    font-weight: lighter;
+}
+.search-field{
+    outline: none;
+    border:1px solid rgb(248, 123, 39);
+   cursor: pointer;
+   letter-spacing: 2px;
+   padding: 13px;
+   width: 30em;
+   height: 2em;
+}
+.submit{
+    outline: none;
+   
+   cursor: pointer;
+   letter-spacing: 2px;
+   padding: 13px;
+   border:1px solid rgb(248, 123, 39);
+   background-color:rgb(248, 123, 39) ;
+
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+.head-above-search h4{
+    color: rgb(119, 117, 117);
+    font-weight: lighter;
+}
+.head-above-search p{
+    margin-top: 1em;
+    color: rgb(153, 146, 146);
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.head-above-search span{
+   
+    color: rgb(66, 65, 65);
+    font-weight: bold;
+    
+}
+.second-container img{
+    height: 160px;
+    width: 130px;
+}
+
+.logo h2,.logo p{
+    color: beige;
+    padding-top: 2em;
+}
+.logo p{
+    font-size: small;
+    line-height: 1.5em;
+}
+.logo h2{
+    font-size: 1.2em;
+}
+.logo{
+   max-width: 300px;
+   align-items: center;
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.last-right{
+  
+    display: flex;
+    flex-direction: row;
+}
+.last-right img{
+
+width:26vw;
+height: 450px;
+
+}
+.last-photo{
+    margin-top: 100px;
+}
+.last-left{
+    height: 400px;
+   width: 40vw;
+   justify-content:start;
+   padding: 9em 0 0 2em;
+  
+   display: flex;
+   color: rgb(48, 47, 47);
+   flex-direction: column;
+  
+
+}
+.last-left h1{
+    text-align: left;
+    font-size: 2.3em;
+    margin-bottom: .8em;
+}
+.last-left p{
+    text-align: left;
+    font-size:large;
+    margin-bottom: .8em;
+    color:rgb(133, 133, 133)
+}
+.third-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    position: relative;
+}
+.card img{
+    margin-top: 2em;
+    width: 150px;
+    height: 50px;
+
+}
+.apple{
+    margin-left: 1em;
+}
+.fourth-container{
+  padding-top: 4em;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.fourth-container div ul li{
+    color: aliceblue;
+    line-height: 2.3em;
+}
+.fourth-container div ul{
+    list-style-type: none;
+}
+.fourth-container p{
+    color: rgb(162, 172, 172);
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.app img{
+    width:200px;
+    border: 1px solid white;
+    border-radius: .8em;
+    
+}
+.app .last-apple{
+    margin-top: 1.5em;
+
+}
+.fifth-container{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue; 
+    padding-top: 20px;
+}
+.fifth-container .first p{
+    color:rgb(162, 172, 172);
+    margin-bottom: 2em;
+    font-weight: bold; ;
+}
+.fifth-container div ul{
+    list-style: none;
+}
+.fifth-container div ul li{
+    line-height: 2em;
+}
+.second, .third,.fourth{
+    padding-top: 3em;
+    
+}
+.sixth{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue; 
+    padding-top: 20px;
+    align-items: center;  
+}
+.sixth .swiggy-last-logo 
+{
+  
+}
+.sixth .copyright{
+
+}
